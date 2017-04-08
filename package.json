@@ -1,0 +1,39 @@
+{
+  "name": "keycentral",
+  "version": "0.0.1",
+  "description": "KeyCentral",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://victor-li@github.com/victor-li/keycentral.git"
+  },
+  "keywords": [
+    "keycentral"
+  ],
+  "author": {
+    "name": "KeyCentral",
+    "email": "victor+keycentral@victorli.nl"
+  },
+  "contributors": [
+    {
+      "name": "Aaron Ang",
+      "email": "awz.ang@gmail.com"
+    },
+    {
+      "name": "Victor Li",
+      "email": "victor@victorli.nl"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victor-li/keycentral/issues"
+  },
+  "homepage": "https://github.com/victor-li/keycentral#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.3"
+  }
+}
