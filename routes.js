@@ -8,4 +8,6 @@ app.get('/', function (req, res) {
   res.send('Hello KeyCentral!');
 })
 
+app.use('/users', require('./app/users/routes'));
+
 module.exports = app
